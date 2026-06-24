@@ -58,7 +58,6 @@ VALUES
 
 -- Invalid records for DQ testing
 INSERT INTO product_catalog VALUES
-(NULL, 'Invalid Product A', 'Electronics', 'Mobiles', 'BrandX', 1000, 'SupplierX', '2024-01-01', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
-(9991, NULL, 'Fashion', 'Shoes', 'BrandY', 2000, 'SupplierY', '2024-01-01', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
-(9992, 'Invalid Product B', 'InvalidCategory', 'Misc', 'BrandZ', 5000, 'SupplierZ', '2024-01-01', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
-(9993, 'Invalid Product C', 'Home', 'Decor', 'BrandA', -100, 'SupplierA', '2024-01-01', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+(9991, NULL, 'Fashion', 'Shoes', 'BrandY', 2000, 'SupplierY', '2024-01-01', TRUE, CURRENT_TIMESTAMP),
+(9992, 'Invalid Product B', 'InvalidCategory', 'Misc', 'BrandZ', 5000, 'SupplierZ', '2024-01-01', TRUE, CURRENT_TIMESTAMP),
+(9993, 'Invalid Product C', 'Home', 'Decor', 'BrandA', -100, 'SupplierA', '2024-01-01', TRUE, CURRENT_TIMESTAMP);

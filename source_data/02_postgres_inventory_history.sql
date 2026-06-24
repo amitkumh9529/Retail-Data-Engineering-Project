@@ -79,7 +79,6 @@ VALUES
 
 -- Invalid records for DQ testing
 INSERT INTO inventory VALUES
-(NULL, 101, 'STORE_01', 10, 5, 'Warehouse-A', CURRENT_TIMESTAMP),
 (9991, NULL, 'STORE_02', 20, 5, 'Warehouse-B', CURRENT_TIMESTAMP),
 (9992, 102, NULL, 15, 5, 'Warehouse-C', CURRENT_TIMESTAMP),
 (9993, 103, 'STORE_03', -5, 10, 'Warehouse-D', CURRENT_TIMESTAMP);
